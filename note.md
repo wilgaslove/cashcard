@@ -58,3 +58,12 @@ Lorsque nous suivons les conventions REST pour créer ou mettre à jour une ress
 - Les contrôleurs Web Spring sont conçus pour gérer et répondre aux requêtes HTTP
 
 
+## architecture de Spring Data.
+
+- Architecture contrôleur-référentiel
+- Le référentiel est l'interface entre l'application et la base de données et fournit une abstraction commune pour toute base de données, facilitant ainsi le passage à une autre base de données en cas de besoin.
+
+## Idempotente 
+- Le terme "idempotence" fait référence à une propriété dans laquelle une opération ou une fonction produit le même résultat, peu importe combien de fois elle est appliquée. En d'autres termes, si une opération idempotente est exécutée plusieurs fois, le résultat final sera le même que si elle avait été exécutée une seule fois.
+
+
