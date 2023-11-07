@@ -68,3 +68,7 @@ Lorsque nous suivons les conventions REST pour créer ou mettre à jour une ress
 
 - Dans le contexte des services web ou des API, l'idempotence signifie que l'appel à une même requête ou à une même action multiple fois ne produira pas d'effets secondaires indésirables ou de changements supplémentaires. Cela permet de garantir la cohérence et la prévisibilité des opérations, même en cas de répétition.
 
+- Par exemple, si une requête de création (POST) est idempotente, cela signifie que vous pouvez l'appeler plusieurs fois avec les mêmes paramètres sans créer plusieurs fois la même ressource. Chaque appel supplémentaire aura le même effet que le premier, c'est-à-dire créer la ressource une seule fois.
+
+- 
+
