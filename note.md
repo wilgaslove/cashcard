@@ -53,3 +53,8 @@ Delete	       /cashcards/{id}	         DELETE	         204 (NO DATA)
 
 ## Le corps de la requête
 Lorsque nous suivons les conventions REST pour créer ou mettre à jour une ressource, nous devons soumettre des données à l'API. C'est ce qu'on appelle souvent le corps de la demande . Les opérations CREATEet UPDATEnécessitent qu'un corps de requête contienne les données nécessaires pour créer ou mettre à jour correctement la ressource. Par exemple, une nouvelle carte de paiement peut avoir un montant initial en espèces et une UPDATEopération peut modifier ce montant.
+
+## Les contrôleurs
+- Les contrôleurs Web Spring sont conçus pour gérer et répondre aux requêtes HTTP
+
+
