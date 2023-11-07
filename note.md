@@ -70,5 +70,6 @@ Lorsque nous suivons les conventions REST pour créer ou mettre à jour une ress
 
 - Par exemple, si une requête de création (POST) est idempotente, cela signifie que vous pouvez l'appeler plusieurs fois avec les mêmes paramètres sans créer plusieurs fois la même ressource. Chaque appel supplémentaire aura le même effet que le premier, c'est-à-dire créer la ressource une seule fois.
 
-- 
+- Il convient de noter que toutes les opérations ou fonctions ne sont pas idempotentes par nature, et cette propriété doit être conçue et mise en œuvre spécifiquement pour chaque cas d'utilisation.
+
 
