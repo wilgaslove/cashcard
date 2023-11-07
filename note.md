@@ -1,4 +1,7 @@
 ## spring api
+- REST (Representational State Transfer) est un style d'architecture logicielle utilisé pour concevoir des services web. Il repose sur le protocole HTTP (Hypertext Transfer Protocol) et définit un ensemble de contraintes et de principes pour la création d'interfaces web simples, évolutives et interopérables. Les services RESTful permettent aux clients d'accéder et de manipuler des ressources en utilisant des opérations standardisées telles que GET, POST, PUT et DELETE. Cela facilite l'intégration et l'interaction entre différentes applications et plateformes.
+
+
 
 1- La désérialisation est le processus inverse de la sérialisation. Il transforme les données d'un fichier ou d'un flux d'octets en un objet pour votre application. 
 
@@ -53,3 +56,26 @@ Delete	       /cashcards/{id}	         DELETE	         204 (NO DATA)
 
 ## Le corps de la requête
 Lorsque nous suivons les conventions REST pour créer ou mettre à jour une ressource, nous devons soumettre des données à l'API. C'est ce qu'on appelle souvent le corps de la demande . Les opérations CREATEet UPDATEnécessitent qu'un corps de requête contienne les données nécessaires pour créer ou mettre à jour correctement la ressource. Par exemple, une nouvelle carte de paiement peut avoir un montant initial en espèces et une UPDATEopération peut modifier ce montant.
+
+## Les contrôleurs
+- Les contrôleurs Web Spring sont conçus pour gérer et répondre aux requêtes HTTP
+
+
+## architecture de Spring Data.
+
+- Architecture contrôleur-référentiel
+- Le référentiel est l'interface entre l'application et la base de données et fournit une abstraction commune pour toute base de données, facilitant ainsi le passage à une autre base de données en cas de besoin.
+
+
+## Idempotente 
+- Le terme "idempotence" fait référence à une propriété dans laquelle une opération ou une fonction produit le même résultat, peu importe combien de fois elle est appliquée. En d'autres termes, si une opération idempotente est exécutée plusieurs fois, le résultat final sera le même que si elle avait été exécutée une seule fois.
+
+- Dans le contexte des services web ou des API, l'idempotence signifie que l'appel à une même requête ou à une même action multiple fois ne produira pas d'effets secondaires indésirables ou de changements supplémentaires. Cela permet de garantir la cohérence et la prévisibilité des opérations, même en cas de répétition.
+
+- Par exemple, si une requête de création (POST) est idempotente, cela signifie que vous pouvez l'appeler plusieurs fois avec les mêmes paramètres sans créer plusieurs fois la même ressource. Chaque appel supplémentaire aura le même effet que le premier, c'est-à-dire créer la ressource une seule fois.
+
+- Il convient de noter que toutes les opérations ou fonctions ne sont pas idempotentes par nature, et cette propriété doit être conçue et mise en œuvre spécifiquement pour chaque cas d'utilisation.
+
+
+
+
