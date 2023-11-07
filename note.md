@@ -66,4 +66,5 @@ Lorsque nous suivons les conventions REST pour créer ou mettre à jour une ress
 ## Idempotente 
 - Le terme "idempotence" fait référence à une propriété dans laquelle une opération ou une fonction produit le même résultat, peu importe combien de fois elle est appliquée. En d'autres termes, si une opération idempotente est exécutée plusieurs fois, le résultat final sera le même que si elle avait été exécutée une seule fois.
 
+- Dans le contexte des services web ou des API, l'idempotence signifie que l'appel à une même requête ou à une même action multiple fois ne produira pas d'effets secondaires indésirables ou de changements supplémentaires. Cela permet de garantir la cohérence et la prévisibilité des opérations, même en cas de répétition.
 
