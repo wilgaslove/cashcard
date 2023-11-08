@@ -157,3 +157,6 @@ Lorsque nous suivons les conventions REST pour créer ou mettre à jour une ress
 
 ## Le corps de la requête
 Lorsque nous suivons les conventions REST pour créer ou mettre à jour une ressource, nous devons soumettre des données à l'API. C'est ce qu'on appelle souvent le corps de la demande . Les opérations CREATEet UPDATEnécessitent qu'un corps de requête contienne les données nécessaires pour créer ou mettre à jour correctement la ressource. Par exemple, une nouvelle carte de paiement peut avoir un montant initial en espèces et une UPDATEopération peut modifier ce montant.
+
+## Put et Patch
+- Les deux PUTet PATCHpeuvent être utilisés pour la mise à jour, mais ils fonctionnent de différentes manières. Essentiellement, PUTcela signifie « créer ou remplacer l'enregistrement complet », alors que PATCHcela signifie « mettre à jour seulement certains champs de l'enregistrement existant » - en d'autres termes, une mise à jour partielle.
