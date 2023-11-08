@@ -160,3 +160,8 @@ Lorsque nous suivons les conventions REST pour créer ou mettre à jour une ress
 
 ## Put et Patch
 - Les deux PUTet PATCHpeuvent être utilisés pour la mise à jour, mais ils fonctionnent de différentes manières. Essentiellement, PUTcela signifie « créer ou remplacer l'enregistrement complet », alors que PATCHcela signifie « mettre à jour seulement certains champs de l'enregistrement existant » - en d'autres termes, une mise à jour partielle.
+ 
+- Pourquoi voudriez-vous faire une mise à jour partielle ? Les mises à jour partielles évitent au client d'avoir à charger l'intégralité de l'enregistrement, puis de renvoyer l'intégralité de l'enregistrement au serveur. Si l'enregistrement est suffisamment volumineux, cela peut avoir un impact non négligeable sur les performances.
+
+
+
