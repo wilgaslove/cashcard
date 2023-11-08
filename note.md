@@ -171,5 +171,6 @@ En général, dans le contexte des communications en ligne, la principale diffé
 
 - "PUT", en revanche, est une méthode HTTP utilisée pour mettre à jour une ressource existante sur le serveur. Lorsque vous effectuez un "PUT", vous envoyez des données au serveur pour qu'il mette à jour une entité déjà existante avec les nouvelles informations fournies.
 
+En résumé, "POST" est utilisé pour créer de nouvelles ressources, tandis que "PUT" est utilisé pour mettre à jour des ressources existantes.
 
 
