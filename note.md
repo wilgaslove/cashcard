@@ -167,3 +167,5 @@ Lorsque nous suivons les conventions REST pour créer ou mettre à jour une ress
 
 En général, dans le contexte des communications en ligne, la principale différence entre un "PUT" et un "POST" réside dans leur utilisation et leur intention.
 
+- "POST" est une méthode HTTP utilisée pour envoyer des données à un serveur afin de créer une nouvelle ressource. Lorsque vous effectuez un "POST", vous envoyez des données au serveur pour qu'il les enregistre et crée une nouvelle entité.
+
